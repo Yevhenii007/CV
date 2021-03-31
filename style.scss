@@ -1,0 +1,75 @@
+.container {
+	padding: 20px 0px;
+	width: 700px;
+	margin: auto;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+
+		&__contactInfo {
+			align-self: flex-end;
+			margin-bottom: 35px;
+		}
+
+		&__photo {
+			display: flex;
+			flex-flow: column;
+			align-items: flex-end;
+		}
+}
+.photo {
+
+		&__size {
+			padding: 10px;
+			border: 1px solid black;
+			width: 150px;
+		}
+}
+h4 {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 35px;
+	// padding: 10px 0px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 19px;
+	margin-top: 10px;
+}
+.otherInfo {
+
+		&__summaryOfQualifications {
+			text-align: justify;
+		}
+
+		&__skills {
+
+			&_underline {
+			text-decoration: underline;
+			// margin-bottom: 10px;
+			line-height: 25px;
+			}
+		}
+
+		&__languages {
+		}
+
+		&__education {
+		}
+
+		&__additionalEducation {
+		}
+
+		&__hobbies {
+		}
+}
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+li {
+	// margin-bottom: 5px;
+	line-height: 20px;
+}
